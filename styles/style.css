@@ -37,7 +37,7 @@
     font-weight: 400;
 }
 
-.style_1{
+.style_1 {
     font-style: normal;
     line-height: normal;
 }
@@ -106,7 +106,7 @@
 .ono {
     position: absolute;
     top: 165px;
-    left: 50px;  
+    left: 50px; 
 }
 
 .tebe {
@@ -143,21 +143,20 @@
     line-height: 28px;
 }
 
-.button {
+.bet_button {
     position: absolute;
     inset: 655px 50px 51px 794px;
     border: 1px solid #FFF;
     background: transparent;    
-}
-
-.bet {
-    color: #FFF;
     text-align: center;
     font-size: 22px;
     font-weight: 500;
     text-transform: uppercase;
-    position: absolute;
-    inset: 12px 32px 11px 31px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .lots {
