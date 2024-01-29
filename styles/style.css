@@ -1,341 +1,341 @@
 .header {
-    box-sizing: border-box;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
-    width: 1052px;
-    height: 105px;
-    margin: 92px 24px;
-    padding: 0px 26px;
-} 
+  box-sizing: border-box;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1052px;
+  height: 105px;
+  margin: 92px 24px;
+  padding: 0px 26px;
+}
 
 .flex__wrap-row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .white {
-    color: #FFF;
+  color: #fff;
 }
 
 .black {
-    color: #000;
+  color: #000;
 }
 
 .header__menu {
-    width: 391px;
-    height: 22px;
-    margin-right: 36px;
+  width: 391px;
+  height: 22px;
+  margin-right: 36px;
 }
 
 .header__links-list {
-    align-content: center;
-    justify-content: space-between;
-    list-style-type: circle;
-    font-size: 18px;
-    font-weight: 400;
+  align-content: center;
+  justify-content: space-between;
+  list-style-type: circle;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .style_1 {
-    font-style: normal;
-    line-height: normal;
+  font-style: normal;
+  line-height: normal;
 }
 
-.header__links-list-item_no-bulit {  
-    list-style-type: none;
+.header__links-list-item_no-bulit {
+  list-style-type: none;
 }
 
 .link-active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .header__logo {
-    display: flex;
-    column-gap: 189px;
-    padding-bottom: 3px;
+  display: flex;
+  column-gap: 189px;
+  padding-bottom: 3px;
 }
 
 .logo__img-black {
-    width: 148px;
-    height: 105px;
+  width: 148px;
+  height: 105px;
 }
 
 .contact {
-    font-size: 18px;
-    line-height: 24.3px;
-    letter-spacing: 0.18px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    position: relative;
-    row-gap: 2px;
-    top: 4px;
-    right: 2px;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0.18px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  row-gap: 2px;
+  top: 4px;
+  right: 2px;
 }
 
 .contact__line {
-    text-decoration: underline;
-    text-underline-offset: 6px;
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 
 .address {
-    text-decoration: none;
-    font-style: normal;
+  text-decoration: none;
+  font-style: normal;
 }
 
 .cover {
-    height: 757px;
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 115%;
-    text-transform: uppercase;
-    position: relative;
-    background-image: url('/images/lotus-flower.png');
+  height: 757px;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115%;
+  text-transform: uppercase;
+  position: relative;
+  background-image: url("/images/lotus-flower.png");
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    position: absolute;
-    background-color: #000;
-    opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.6;
 }
 
 .ono {
-    position: absolute;
-    top: 165px;
-    left: 50px; 
+  position: absolute;
+  top: 165px;
+  left: 50px;
 }
 
 .tebe {
-    position: absolute;
-    top: 292px;
-    left: 336px;
+  position: absolute;
+  top: 292px;
+  left: 336px;
 }
 
 .nado {
-    position: absolute;
-    top: 412px;
-    left: 634px;
+  position: absolute;
+  top: 412px;
+  left: 634px;
 }
 
 .big__space {
-    letter-spacing: 60px;
+  letter-spacing: 60px;
 }
 
 .small__space {
-    letter-spacing: 30px;
+  letter-spacing: 30px;
 }
 
 .v {
-    letter-spacing: 24.2px;
+  letter-spacing: 24.2px;
 }
 
 .things__string {
-    position: absolute;
-    inset: 667px 385px 62px 78px;
-    justify-content: center;
-    word-spacing: 18px;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 28px;
+  position: absolute;
+  inset: 667px 385px 62px 78px;
+  justify-content: center;
+  word-spacing: 18px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 .bet_button {
-    position: absolute;
-    inset: 655px 50px 51px 794px;
-    border: 1px solid #FFF;
-    background: transparent;    
-    text-align: center;
-    font-size: 22px;
-    font-weight: 500;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+  position: absolute;
+  inset: 655px 50px 51px 794px;
+  border: 1px solid #fff;
+  background: transparent;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .lots {
-    width: 1052px;
-    height: 692px;
-    position: relative;
-    inset: 179px 24px 146px 24px;
+  width: 1052px;
+  height: 692px;
+  position: relative;
+  inset: 179px 24px 146px 24px;
 }
 
 .lots__list {
-    position: relative;
-    padding-top: 27px;
-    column-gap: 25px;
-    list-style-type: none;
+  position: relative;
+  padding-top: 27px;
+  column-gap: 25px;
+  list-style-type: none;
 }
 
 .lots__h1 {
-    width: 121px;
-    height: 47px;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-    position: relative;
-    padding-left: 40px;
-    padding-bottom: 27px;
+  width: 121px;
+  height: 47px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 40px;
+  padding-bottom: 27px;
 }
 
 .all__li {
-    width: 334px;
-    height: 563px;
-    flex-grow: 1;
-    position: relative;
+  width: 334px;
+  height: 563px;
+  flex-grow: 1;
+  position: relative;
 }
 
 .cinema {
-    background: url('/images/card-lot-01.jpg');
+  background: url("/images/card-lot-01.jpg");
 }
 
 .book {
-    background: url('/images/card-lot-02.jpg');
+  background: url("/images/card-lot-02.jpg");
 }
 
 .art {
-    background: url('/images/card-lot-03.jpg');
+  background: url("/images/card-lot-03.jpg");
 }
 
 .li__pictures-index {
-    background-repeat:no-repeat;
-    background-size: cover;
-    z-index: -1;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background-position: center;
 }
 
 .more {
-    position: absolute;
-    padding-left: 40px;
-    padding-top: 32px;
-    padding-bottom: 2px;
-    font-size: 20px;
-    font-weight: 400;
+  position: absolute;
+  padding-left: 40px;
+  padding-top: 32px;
+  padding-bottom: 2px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .card {
-    display: block;
-    text-decoration: none;
-    min-height: 100%;
+  display: block;
+  text-decoration: none;
+  min-height: 100%;
 }
 
 .article__main-text {
-    z-index: 1;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 120%; 
-    text-decoration-line: underline;
-    text-transform: uppercase;
+  z-index: 1;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 .article__text {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .text {
-    position: absolute;
-    inset: 51px 40px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+  position: absolute;
+  inset: 51px 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .about {
-    width: 1052px;
-    height: 595px;
-    position: relative;
-    inset: 327px 24px 181px 24px;
-    justify-content: flex-end;
-    align-content: flex-end;
+  width: 1052px;
+  height: 595px;
+  position: relative;
+  inset: 327px 24px 181px 24px;
+  justify-content: flex-end;
+  align-content: flex-end;
 }
 
 .eclipse {
-    background:#000;
-    border-radius: 50%;
-    position: absolute;
-    inset: 33px 47px;
-    height: 240px;
-    width: 240px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  inset: 33px 47px;
+  height: 240px;
+  width: 240px;
 }
 
 .logo-white {
-    width: 148px;
-    height: 114px;
-    position: relative;
-    inset: 64px 46px;
+  width: 148px;
+  height: 114px;
+  position: relative;
+  inset: 64px 46px;
 }
 
 .about__collumn {
-    width: 693px;
-    height: 449px;
-    position: absolute;
-    inset: 133px 0 13px 359px;
+  width: 693px;
+  height: 449px;
+  position: absolute;
+  inset: 133px 0 13px 359px;
 }
 
 .about__head {
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-bottom: 100px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 100px;
 }
 
 .text__about-1 {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px; 
-    letter-spacing: 0.2px;
-    padding-bottom: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  padding-bottom: 24px;
 }
 
 .text__about-2 {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .footer {
-    width: 1000px;
-    height: 98px;
-    position: relative;
-    top: 500px;
-    left: 50px;
-    display: grid;
-    justify-items: end;
-    justify-content: end;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 185px;
+  width: 1000px;
+  height: 98px;
+  position: relative;
+  top: 500px;
+  left: 50px;
+  display: grid;
+  justify-items: end;
+  justify-content: end;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 185px;
 }
 
 .menu__list-2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    list-style-type: none;
-    position: absolute;
-    inset: 0 50px 20px 50px;
-    font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  list-style-type: none;
+  position: absolute;
+  inset: 0 50px 20px 50px;
+  font-size: 18px;
 }
 
 .links_pic {
-    display: flex;
-    column-gap: 48px;
-    position: absolute;
-    top: 7px;
+  display: flex;
+  column-gap: 48px;
+  position: absolute;
+  top: 7px;
 }
 
 .sotial {
-    width: 48px;
-    height: 48px;
+  width: 48px;
+  height: 48px;
 }
