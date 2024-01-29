@@ -91,7 +91,7 @@
   line-height: 115%;
   text-transform: uppercase;
   position: relative;
-  background-image: url("/images/lotus-flower.png");
+  background-image: url("../images/lotus-flower.png");
 }
 
 .overlay {
@@ -192,15 +192,15 @@
 }
 
 .cinema {
-  background: url("/images/card-lot-01.jpg");
+  background: url("../images/card-lot-01.jpg");
 }
 
 .book {
-  background: url("/images/card-lot-02.jpg");
+  background: url("../images/card-lot-02.jpg");
 }
 
 .art {
-  background: url("/images/card-lot-03.jpg");
+  background: url("../images/card-lot-03.jpg");
 }
 
 .li__pictures-index {
