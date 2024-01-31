@@ -44,36 +44,36 @@
   <main>
     <section class="cover white">
       <div class="overlay">
-        <div class="ono__text">
-          <span class="ono">
+          <h1 class="cover__title">
+          <span class="aligned-text">
             <span class="small__space">О</span><span class="big__space">но</span></span>
 
-          <span class="tebe">
+          <span class="aligned-text_center">
             <span class="small__space">те</span><span class="big__space">бе</span></span>
 
-          <span class="nado">
+          <span class="aligned-text_right">
             <span class="big__space">Н</span><span class="small__space">ад</span><span
               class="small__space">о</span></span>
+            </h1>
 
-          <span class="things__string flex__wrap-row">Аукцион вещей, в которые никто не верил</span>
+          <span class="flex__wrap-row cover__description-text">Аукцион вещей, в которые никто не верил</span>
 
           <a class="bet_button white link-active style_1" href="#0">Сделать ставку
           </a>
-        </div>
       </div>
     </section>
 
     <section class="lots">
-      <h1 class="lots__h1 style_1 black">Лоты</h1>
-      <ul class="lots__list flex__wrap-row">
-        <li class="cinema all__li li__pictures-index">
-          <a class="card">
+      <h1 class="lots__heading style_1 black">Лоты</h1>
+      <ul class="lots__card-list flex__wrap-row">
+        <li class="card__type-film lots__card-list-item">
+          <a class="card-link">
             <article class="overlay">
-              <div class="text">
-                <p class="article__main-text white">
+              <div class="card">
+                <h2 class="card__title white">
                   Фильм режиссёра, который бросил киношколу
-                </p>
-                <p class="article__text white">
+                </h2>
+                <p class="card__text white">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
                   Андерсон?
@@ -82,15 +82,15 @@
             </article>
           </a>
         </li>
-        <li class="book all__li li__pictures-index">
-          <a class="card">
+        <li class="card__type-book lots__card-list-item">
+          <a class="card-link">
             <article class="overlay">
-              <div class="text">
-                <p class="article__main-text white">
+              <div class="card">
+                <h2 class="card__title white">
                   Книга, где описан один скучный день из жизни рекламного
                   агента
-                </p>
-                <p class="article__text white">
+                </h2>
+                <p class="card__text white">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания
                   и с переходами на древнеанглийский. В ней одновременно
                   рассказывается о 16 июня 1904 года и об истории литературы,
@@ -102,14 +102,14 @@
             </article>
           </a>
         </li>
-        <li class="art all__li li__pictures-index">
-          <a class="card">
+        <li class="card__type-picture lots__card-list-item">
+          <a class="card-link">
             <article class="overlay">
-              <div class="text">
-                <p class="article__main-text white">
+              <div class="card">
+                <h2 class="card__title white">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </p>
-                <p class="article__text white">
+                </h2>
+                <p class="card__text white">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков<span class="letter-space__3">...</span> Сколько бы
@@ -121,18 +121,17 @@
           </a>
         </li>
       </ul>
-      <p class="more style_1 black">
-        <a class="more__link">посмотреть больше</a>
-      </p>
+      
+        <a class="lots__look-more-link style_1 black">посмотреть больше</a>
     </section>
 
     <section class="about flex__wrap-row">
-      <div class="eclipse">
-        <a href="#0"><img class="logo-white" src="./images/logo-white.svg" alt="" /></a>
+      <div class="about__logo">
+        <a href="#0"><img class="about__logo-image" src="./images/logo-white.svg" alt="" /></a>
       </div>
       <div class="about__collumn">
-        <p class="about__head black style_1">Об аукционе</p>
-        <p class="text__about-1 black style_1">
+        <p class="about__title black style_1">Об аукционе</p>
+        <p class="about__text-1 black style_1">
           Здесь вы не встретите очередное
           <span class="letter-space__no">пафосное с</span>обрание
           <span class="letter-space__no">невероятно</span> дорогого
@@ -144,7 +143,7 @@
           картина, которую может нарисовать даже ребёнок? Кому нужны все эти
           странные вещи, созданные любителями?
         </p>
-        <p class="text__about-2 black style_1">
+        <p class="about__text-2 black style_1">
           Слишком сложные или, наоборот, слишком простые. Опережающие своё
           время. В пух и прах растерзанные критиками. Непринятые и непонятые.
           Когда-то <span class="letter-space__8">они</span>казались просто
@@ -166,22 +165,23 @@
         наб. Принсенграхт 263- <br />265, Амстердам
       </address>
     </div>
-
-    <ul class="menu__list-2 black">
-      <li>
-        <a class="link-active" href="#0">главная </a>
-      </li>
-      <li>
-        <a href="#0"> посмотреть лоты </a>
-      </li>
-      <li>
-        <a href="#0"> об аукционе </a>
-      </li>
-    </ul>
-    <div class="links_pic">
-      <a href="#0"><img src="./images/yt.svg" class="sotial" alt="" /></a>
-      <a href="#0"><img src="./images/vk.svg" class="sotial" alt="" /></a>
-      <a href="#0"><img src="./images/pinterest.svg" class="sotial" alt="" /></a>
+    <nav class="footer__menu">
+      <ul class="footer__menu-list black">
+        <li>
+          <a class="link-active" href="#0">главная </a>
+        </li>
+        <li>
+          <a href="#0" class="address"> посмотреть лоты </a>
+        </li>
+        <li>
+          <a href="#0"> об аукционе </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="footer__social">
+      <a href="#0"><img src="./images/yt.svg" class="sotial__link-icon" alt="" /></a>
+      <a href="#0"><img src="./images/vk.svg" class="sotial__link-icon" alt="" /></a>
+      <a href="#0"><img src="./images/pinterest.svg" class="sotial__link-icon" alt="" /></a>
     </div>
   </footer>
 </body>
