@@ -98,7 +98,7 @@
   opacity: 0.6;
 }
 
-.cover__title{
+.cover__title {
   font-size: 100px;
   line-height: 115%;
   text-transform: uppercase;
@@ -134,7 +134,7 @@
   letter-spacing: 24.2px;
 }
 
-.cover__description-text{
+.cover__description-text {
   position: absolute;
   inset: 667px 385px 62px 78px;
   justify-content: center;
@@ -185,6 +185,7 @@
   padding-left: 40px;
   padding-bottom: 27px;
 }
+
 
 .lots__card-list-item {
   width: 334px; 
