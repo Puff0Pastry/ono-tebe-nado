@@ -87,7 +87,11 @@
 .cover {
   height: 757px;
   position: relative;
-  background-image: url("../images/lotus-flower.png");
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background-position: center;
 }
 
 .overlay {
