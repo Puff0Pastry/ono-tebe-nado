@@ -186,10 +186,17 @@
   padding-bottom: 27px;
 }
 
-.lots__card-list-item {
-  
+/*.lots__card-list-item {  
   position: relative;
   width: 334px; 
+  height: 563px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}*/
+
+.lots__card-list-item {
+  position: relative;
+  width: 334px;
   height: 563px;
   flex-shrink: 0;
   flex-grow: 1;
