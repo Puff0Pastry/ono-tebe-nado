@@ -113,7 +113,7 @@
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  padding: 55px 10px 53px 35px;
+  padding: 56px 10px 53px 40px;
 }
 
 .cover__description-text {
@@ -132,12 +132,14 @@
   background: transparent;
   border: 1px solid #fff;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
   font-size: 22px;
   font-weight: 500;
   text-transform: uppercase;
   width: 256px;
-  height: 51px;
+  padding: 12px 0;
   z-index: 2;
+  cursor: pointer;
 }
 
 .lots {
@@ -267,9 +269,7 @@
   align-content: center;
   align-items: center;
   justify-content: space-around;
-  position: relative;
-  top: 35px;
-  left: 47px;
+  margin: 35px 47px;
 }
 
 .about__logo-image {
